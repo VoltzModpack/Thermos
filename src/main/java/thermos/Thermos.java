@@ -114,10 +114,6 @@ public class Thermos {
         return sOfficial;
     }
 
-    public static File sNewServerLocation;
-    public static String sNewServerVersion;
-    public static boolean sUpdateInProgress;
-
     public static void restart() {
         RestartCommand.restart(true);
     }
